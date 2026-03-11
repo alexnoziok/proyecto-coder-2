@@ -45,3 +45,19 @@ font-family: Roboto, "Open Sans", sans-serif;}
     font-size: 1.8rem;
     font-weight: bold;
 }
+.ndiv {
+  display: flex;              /* coloca texto e imagen en fila */
+  align-items: center;        /* centra verticalmente */
+  justify-content: center;    /* centra horizontalmente */
+  gap: 20px;                  /* espacio entre texto e imagen */
+  max-width: 800px;           /* límite de ancho del bloque */
+  margin: 0 auto;             /* centra el bloque en la página */
+  padding: 20px; /*Si, la IA me echa una mano, pierna y otra cosa, para que decir otherwise*/
+}
+
+.ndiv img {
+  max-width: 300px;   /* tamaño máximo de la imagen */
+  width: 100%;        /* se adapta dentro del límite */
+  height: auto;       /* mantiene proporción */
+  border-radius: 8px; /* opcional, bordes redondeados */
+}
